@@ -24,7 +24,7 @@ This short video shows these features in action:
 1. Go to the [Releases](https://github.com/maneatingape/rsvp/releases) tab, then download latest version of `rsvp.zip`.
 2. Unzip into `<KSP install location>/Ships/Script` directory. This step adds the library to the kOS archive volume, making it available to all vessels.
 3. Launch a craft into a stable orbit of Kerbin.
-3. Run this script from the craft:
+4. Run this script from the craft:
     ```
     runoncepath("0:/rsvp/main").
     local options is lexicon("create_maneuver_nodes", "both", "verbose", true).
